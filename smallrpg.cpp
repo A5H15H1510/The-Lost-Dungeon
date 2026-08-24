@@ -165,7 +165,7 @@ int main(){
                                         }
                                         else if(attchoice == "P" || attchoice == "p"){
                                             if(potions < 1){
-                                                cout << "\nYou don't have any potions!\n";
+                                                cout << "\nYou don't have any potions!";
                                                 attchoice = "";
                                             }
                                             else{
@@ -196,12 +196,12 @@ int main(){
                                                     return 0;
                                                 }
                                                 cout << "\n\nYour HP: " << hp;
+                                                attchoice = "";
                                             }
                                         }
                                         else{
                                             cout << "\nInvalid choice! Enter only A or R or P.\n";
                                         }
-
                                     }while(attchoice != "A" && attchoice != "a" && 
                                             attchoice != "R" && attchoice != "r" && 
                                             attchoice != "P" && attchoice != "p");
@@ -315,7 +315,7 @@ int main(){
                                         }
                                         else if(attchoice == "P" || attchoice == "p"){
                                             if(potions < 1){
-                                                cout << "\nYou don't have any potions!\n";
+                                                cout << "\nYou don't have any potions!";
                                                 attchoice = "";
                                             }
                                             else{
@@ -346,6 +346,7 @@ int main(){
                                                     return 0;
                                                 }
                                                 cout << "\n\nYour HP: " << hp;
+                                                attchoice = "";
                                             }
                                         }
                                         else{
@@ -467,7 +468,7 @@ int main(){
                                         }
                                         else if(attchoice == "P" || attchoice == "p"){
                                             if(potions < 1){
-                                                cout << "\nYou don't have any potions!\n";
+                                                cout << "\nYou don't have any potions!";
                                                 attchoice = "";
                                             }
                                             else{
@@ -498,6 +499,7 @@ int main(){
                                                     return 0;
                                                 }
                                                 cout << "\n\nYour HP: " << hp;
+                                                attchoice = "";
                                             }
                                         }
                                         else{
