@@ -51,3 +51,5 @@ This project was created while learning C++ and practicing:
 Completed — Version 1.0
 
 This is a beginner learning project and will probably be improved as I learn more C++.
+
+**Platform: macOS only**
