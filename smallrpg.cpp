@@ -264,7 +264,7 @@ int main(){
 
                                 while(xp >= xpthres){
                                     cout << "\n==============================\n";
-                                    cout << "LEVEL UP!";
+                                    cout << "            LEVEL UP!             ";
                                     cout << "\n==============================\n";
                                     lvl++;
                                     xp -= xpthres;
@@ -416,7 +416,7 @@ int main(){
 
                                     while(xp >= xpthres){
                                     cout << "\n==============================\n";
-                                    cout << "LEVEL UP!";
+                                    cout << "            LEVEL UP!             ";
                                     cout << "\n==============================\n";
                                     lvl++;
                                     xp -= xpthres;
